@@ -1,0 +1,15 @@
+{
+  "functions": [{
+    "grey": [],
+    "lineRemoval": [2],
+    "thresholdOtsu": [],
+    "threshold": [0, true],
+    "removeContours": [50]
+  }],
+  "folder": "captcha_03/captchas/",
+  "model_filename": "captcha03.hdf5",
+  "label_filename": "captcha03.labels",
+  "preview": false,
+  "captcha_length": [4, 4],
+  "threshold": 1.3
+}

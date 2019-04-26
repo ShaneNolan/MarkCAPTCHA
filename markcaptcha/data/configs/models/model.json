@@ -1,0 +1,9 @@
+{
+  "image_size" : [28, 28],
+  "hidden_layers" : 100,
+  "iterations" : 6,
+  "testing_ratio" : 0.2,
+  "pool_size": [2, 2],
+  "stride" : [2, 2],
+  "preview" : true
+}

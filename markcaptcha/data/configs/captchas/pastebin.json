@@ -1,0 +1,1 @@
+{"functions": [{"grey": [], "threshold": [100, true], "removeContours": [5], "dilate": [2]}], "folder": "pastebin_captcha/captchas/", "model_filename": "pastebin.hdf5", "label_filename": "pastebin.labels", "preview": false, "captcha_length": [4, 4], "threshold": 1.26}

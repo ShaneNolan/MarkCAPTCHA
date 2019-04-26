@@ -1,0 +1,1 @@
+{"functions": [{"grey": [], "threshold": [230, true]}], "folder": "really_simple_captcha/modified/tmp/", "model_filename": "simplecaptcha.hdf5", "label_filename": "simplecaptcha.labels", "preview": false, "captcha_length": [4, 4], "threshold": 1.5}

@@ -1,0 +1,9 @@
+python tests/test_Accuracy.py [ARGS]
+
+usage examples:
+
+--config captcha03.json --folder C:\Users\Shane\Desktop\MarkCaptcha\markcaptcha\data\captchas\captcha_03\captchas\testing
+
+--config pastebin.json --folder C:\Users\Shane\Desktop\MarkCaptcha\markcaptcha\data\captchas\pastebin_captcha\captchas\testing
+
+--config simplecaptcha.json --folder C:\Users\Shane\Desktop\MarkCaptcha\markcaptcha\data\captchas\really_simple_captcha\modified\tmp\testing
