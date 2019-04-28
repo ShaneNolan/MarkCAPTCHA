@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from pathlib import Path
 from PIL import Image
-import os, imutils, io, base64
+import os, platform, imutils, io, base64
 from abc import ABC, abstractmethod
 
 
@@ -180,8 +180,12 @@ class ImageProcessing(ABC):
         Finding contours is finding white object from black background.
     '''
     def findContours(self, retrieval_mode, approximation_method, image = None):
+        if platform.system() == "Windows":
+            print("ASDASDASD")
+        else:
+            print(platform.system())
         return cv2.findContours(self._image if image is None else image, retrieval_mode,
-            approximation_method)[0]
+            approximation_method)[1 if platform.system() == "Darwin" else 0]
 
     '''
     RemoveContours
