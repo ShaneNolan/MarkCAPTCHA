@@ -1,5 +1,7 @@
 # MarkCAPTCHA
-An Examination on the Robustness of Alphanumeric CAPTCHAS using Machine Learning.
+An Examination on the Robustness of Alphanumeric CAPTCHAS using Machine Learning. 
+
+[Read Thesis (PDF)]( https://github.com/ShaneNolan/MarkCAPTCHA/blob/master/doc/An%20Examination%20on%20the%20Robustness%20of%20Alphanumeric%20CAPTCHA%20as%20a%20Challenge%20Response%20Test%20using%20Machine%20Learning.pdf).
 
 ## Arguments
 Arguments supplied when running MARKCAPTCHA.
