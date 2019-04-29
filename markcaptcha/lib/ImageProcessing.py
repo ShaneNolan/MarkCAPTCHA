@@ -180,10 +180,6 @@ class ImageProcessing(ABC):
         Finding contours is finding white object from black background.
     '''
     def findContours(self, retrieval_mode, approximation_method, image = None):
-        if platform.system() == "Windows":
-            print("ASDASDASD")
-        else:
-            print(platform.system())
         return cv2.findContours(self._image if image is None else image, retrieval_mode,
             approximation_method)[1 if platform.system() == "Darwin" else 0]
 
